@@ -31,6 +31,23 @@ $(document).ready(function(){
   });
 
 
+$(".addDancerButton").on("click", function(event){
+
+    var dancerMakerFunctionName = $(this).data("dancer-maker-function-name");
+
+
+    // get the maker function for the kind of dancer we're supposed to make
+    var dancerMakerFunction = window[dancerMakerFunctionName];
+    // make a dancer with a random position
+
+    var dancer = new dancerMakerFunction(
+      $("body").height() * Math.random(),
+      $("body").width() * Math.random(),
+      0
+    );
+    $('body').append(dancer.$node);
+  });
+
 
 $(".addDancerButton2").on("click", function(event){
 
@@ -52,4 +69,6 @@ $(".addDancerButton2").on("click", function(event){
 
 
 });
+
+
 
