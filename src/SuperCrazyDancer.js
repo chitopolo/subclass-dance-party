@@ -1,18 +1,18 @@
-var Joy= function (tag, top, left) {
+var SuperCrazyDancer= function (tag, top, left) {
   this.$node =  tag;
   this.setPosition(top, left);
   this.xPosition = left;
   this.yPosition = top;
 }
 
-Joy.prototype.setPosition = function(top, left){
+SuperCrazyDancer.prototype.setPosition = function(top, left){
   var styleSettings = {
     top: top,
     left: left
   };
   this.$node.css(styleSettings);
 };
-Joy.prototype.lineUp = function() {
+SuperCrazyDancer.prototype.lineUp= function () {
   var pos= {
     'position':'absolute',
     'top':'400px'

@@ -45,16 +45,34 @@ body, a:link, a:visited, a:active{
 }
 
 
-.joy{
-  background-image : url(images/girldancing.gif) ;
+.joy1{
+  background-image : url(images/funny.gif) ;
   /*background-image : url(images/crazydance.gif) ;*/
 
-  height:255px;
+  height:410px;
   width:220px;
 
   position:absolute;
 }
 
+.crzyDancer{
+  background-image : url(images/ohyeah.gif) ;
+  /*background-image : url(images/crazydance.gif) ;*/
+  position:absolute;
+}
+
+.crzyDancer2{
+  background-image : url(images/simpson.gif) ;
+  /*background-image : url(images/crazydance.gif) ;*/
+  position:absolute;
+}
+
+
+.crzyDancer3{
+  background-image : url(images/giphy.gif) ;
+  /*background-image : url(images/crazydance.gif) ;*/
+  position:absolute;
+}
 
 .dancer2{
   background-image : url(images/mrbean.gif) ;

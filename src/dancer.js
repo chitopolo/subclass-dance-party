@@ -16,3 +16,13 @@ makeDancer.prototype.setPosition = function(top, left){
   };
   this.$node.css(styleSettings);
 };
+makeDancer.prototype.lineUp = function () {
+  var pos= {
+    'position':'absolute',
+    'top':'400px'
+  };
+
+
+
+  this.$node.css(pos);
+}
