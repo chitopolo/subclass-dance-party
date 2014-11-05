@@ -35,9 +35,22 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  background-image : url(images/funny.gif) ;
-  height:400px;
-  width:250px;
+  background-image : url(images/girldancing.gif) ;
+  /*background-image : url(images/crazydance.gif) ;*/
+
+  height:255px;
+  width:220px;
+
+  position:absolute;
+}
+
+
+.joy{
+  background-image : url(images/girldancing.gif) ;
+  /*background-image : url(images/crazydance.gif) ;*/
+
+  height:255px;
+  width:220px;
 
   position:absolute;
 }
